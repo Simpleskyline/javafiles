@@ -1,7 +1,7 @@
 // File: Method.java
 public class Method{
      public static void main(String[] args) {
-        happyBirthday();
+         happyBirthday();
          happyBirthday();
          happyBirthday();
     }
