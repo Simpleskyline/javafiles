@@ -1,13 +1,15 @@
 // File: Method.java
 public class Method{
      public static void main(String[] args) {
-         happyBirthday(); //method 
-    }
-//a block of reusable code that is executed when called ()
-static void happyBirthday() {
-        System.out.println("Happy Birthday to you!");
-        System.out.println("Happy Birthday to you!");
-        System.out.println("Happy Birthday dear friend!");
-        System.out.println("Happy Birthday to you!");
-    }   
-}
+    
+        int x = 3;
+        int y = 4;
+
+        add(x,y);
+     }
+     static int add(int x, int y){
+        int sum = x + y;
+        System.out.println("The sum is: " + sum);
+        return sum;
+     } 
+    } 
