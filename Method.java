@@ -1,9 +1,7 @@
 // File: Method.java
 public class Method{
      public static void main(String[] args) {
-         happyBirthday();
-         happyBirthday();
-         happyBirthday();
+         happyBirthday(); //method 
     }
 //a block of reusable code that is executed when called ()
 static void happyBirthday() {
