@@ -1,6 +1,6 @@
 // File: RectangleArea.java
 // This program calculates the area of a rectangle based on user input for length and width.
-import java.util.Scanner;//imports the Scanner class from Java's java.util package.
+import java.util.Scanner; //imports the Scanner class from Java's java.util package.
 
 public class Rectangle {
     public static void main(String[] args) {
