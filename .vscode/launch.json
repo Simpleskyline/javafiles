@@ -14,7 +14,7 @@
     "type": "java",
     "name": "Launch Method2",
     "request": "launch",
-    "mainClass": "Method2",
+    "mainClass": "Arrays",
     "projectName": "JAVA"
 }
     ]
