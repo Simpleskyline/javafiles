@@ -1,5 +1,5 @@
 public class Operators {
-public static void main(String args[]){
+public static void main(String args[] ){
 int number1 = 20;
 int number2 = 10;
 //is equal to operator
