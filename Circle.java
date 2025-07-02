@@ -10,7 +10,7 @@ public class Circle {
             double radius = scanner.nextDouble();
 
             if (radius < 0) {
-                System.out.println("❌ Radius cannot be negative.");
+                System.out.println("Radius cannot be negative.");
             } else {
                 // Area = π * r^2
                 double area = Math.PI * Math.pow(radius, 2);
