@@ -1,9 +1,23 @@
 public class Operators {
 public static void main(String args[]){
-int number = 20;
+int number1 = 20;
+int number2 = 10;
+//is equal to operator
+System.out.println(number1==number2);
 
-number %= 10; // Using the modulus operator to find the remainder when number is divided by 10
-// This will result in number being 0, since 20 % 10 is 0
-System.out.println(number); 
+//is not equal to operator
+System.out.println(number1!=number2);
+
+//is greater than operator
+System.out.println(number1>number2);
+
+//is less than operator
+System.out.println(number1<number2);
+
+//is greater than or equal to operator
+System.out.println(number1>=number2);
+
+//is less than or equal to operator
+System.out.println(number1<=number2);
 }
 }
