@@ -1,9 +1,9 @@
 public class Operators {
 public static void main(String args[]){
-int number1 = 100; // First number
-int number2 = 20; // Second number
+int number = 20;
 
-// Arithmetic Operators
-System.out.println(number1 / number2); // Division
+number %= 10; // Using the modulus operator to find the remainder when number is divided by 10
+// This will result in number being 0, since 20 % 10 is 0
+System.out.println(number); 
 }
 }
