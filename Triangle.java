@@ -1,21 +1,21 @@
 import java.util.Scanner;
-public class Triangle {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        // Prompt user for the lengths of the triangle
-        System.out.print("Enter the base: ");
-        double base = scanner.nextDouble();
+// This program calculates the area of a triangle based on user input for base and height.
 
-        System.out.println("Enter the height: ");
+public class Triangle {
+    public static void main(String[] args){
+        //read user input
+        Scanner scanner = new Scanner (System.in);
+
+        System.out.print("Enter the base of the triangle: ");
+        double base = scanner.nextDouble(); // Reads the base of the triangle from user input
+
+        System.out.print("Enter the height of the triangle: ");
         double height = scanner.nextDouble();
 
-        // Calculate the area of the triangle
+        // Calculate area
         double area = 0.5 * base * height;
 
         // Display the result
-        System.out.println("The area of the rectangle is: " + area);
-
-        // Close the scanner to free up resources
-        scanner.close();
-}
+        System.out.print("The area of the triangle is: "  + area);
+    }
 }
