@@ -18,4 +18,4 @@ public class Triangle {
         // Display the result
         System.out.print("The area of the triangle is: "  + area);
     }
-}
+} 
