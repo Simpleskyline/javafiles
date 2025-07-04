@@ -4,7 +4,10 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Login {
+    // HashMap to store usernames and passwords
+    // Using HashMap for quick access to user credentials
     private static HashMap<String, String> users = new HashMap<>();
+    // Scanner for user input
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
