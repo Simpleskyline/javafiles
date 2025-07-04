@@ -1,4 +1,6 @@
-import java.util.HashMap;
+// File: Login.java
+// This code implements a simple login system with signup and login functionalities.
+import java.util.HashMap; 
 import java.util.Scanner;
 
 public class Login {
