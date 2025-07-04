@@ -3,9 +3,9 @@
 
 import java.util.HashMap;
 
-public class Hash{
+public class Hash {
     public static void main(String[] args) {
-        HashMap<String, Double> map = new HashMap();
+        HashMap<String, Double> map = new HashMap<String, Double>();
 
 
         map.put("apple", 0.50);
