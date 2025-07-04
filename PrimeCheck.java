@@ -7,7 +7,11 @@ public class PrimeCheck {
         //Any number less than or equal to 1 is not a prime number.
         if (num <= 1) isPrime = false;
 
+        //Check for factors from 2 to the square root of num
+        //If any factor is found, num is not prime
         for (int i = 2; i <= Math.sqrt(num); i++) {
+           
+            //If num is divisible by i, it is not prime
             if (num % i == 0) {
                 isPrime = false;
                 break;
