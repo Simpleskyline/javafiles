@@ -17,6 +17,7 @@ public class EvenOdd {
         } else {
             System.out.println(num + " is odd.");
         }
+        // Close the Scanner object to free up resources
         input.close();
     }
 }
