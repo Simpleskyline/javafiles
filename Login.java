@@ -8,7 +8,7 @@ public class Login {
     // Using HashMap for quick access to user credentials
     private static HashMap<String, String> users = new HashMap<>();
     // Scanner for user input
-    
+
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -41,6 +41,9 @@ public class Login {
     private static void signup() {
         System.out.print("Enter a new username: ");
         String username = scanner.nextLine();
+
+        // Check if the username already exists
+        // If it does, prompt the user to choose another one
         if (users.containsKey(username)) {
             System.out.println("⚠️ Username already exists. Try another.");
             return;
@@ -48,7 +51,7 @@ public class Login {
 
         System.out.print("Enter a password: ");
         String password = scanner.nextLine();
-        users.put(username, password);
+        users.put(username, password); // Store the username and password in the HashMap
         System.out.println("✅ Signup successful!");
     }
 
