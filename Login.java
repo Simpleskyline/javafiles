@@ -21,6 +21,7 @@ public class Login {
             int choice = scanner.nextInt();
             scanner.nextLine(); // clear buffer
 
+            
             switch (choice) {
                 case 1:
                     signup();
@@ -33,11 +34,12 @@ public class Login {
                     scanner.close();
                     return;
                 default:
-                    System.out.println("❌ Invalid choice. Try again.");
+                    System.out.println("Invalid choice. Try again.");
             }
         }
     }
-
+    // Method to handle user signup
+    // It prompts the user for a username and password, checks if the username already exists,
     private static void signup() {
         System.out.print("Enter a new username: ");
         String username = scanner.nextLine();
