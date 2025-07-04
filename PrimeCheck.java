@@ -1,7 +1,16 @@
+import java.util.Scanner;
+
 //declares a public class named PrimeCheck
 public class PrimeCheck {
     public static void main(String[] args) {
-        int num = 29;
+        
+        //Create a Scanner object to read input from the user
+        Scanner input = new Scanner(System.in);
+
+        //Prompt the user to enter a number
+        System.out.print("Enter a number to check if it is prime: ");
+        int num = input.nextInt();
+
         boolean isPrime = true;
 
         //Any number less than or equal to 1 is not a prime number.
