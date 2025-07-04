@@ -9,6 +9,9 @@ public class EvenOdd {
         // Prompt the user to enter a number
         System.out.print("Enter a number: ");
         int num = input.nextInt();
+
+        // Check if the number is even or odd
+        // If the number is divisible by 2, it is even; otherwise, it is
         if (num % 2 == 0) {
             System.out.println(num + " is even.");
         } else {
