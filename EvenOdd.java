@@ -9,7 +9,6 @@ public class EvenOdd {
         // Prompt the user to enter a number
         System.out.print("Enter a number: ");
         int num = input.nextInt();
-
         if (num % 2 == 0) {
             System.out.println(num + " is even.");
         } else {
