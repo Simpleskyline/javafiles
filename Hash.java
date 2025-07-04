@@ -6,5 +6,12 @@ import java.util.HashMap;
 public class Hash{
     public static void main(String[] args) {
         HashMap<String, Double> map = new HashMap();
+
+
+        map.put("apple", 0.50);
+        map.put("banana", 0.30);
+        map.put("orange", 0.60);
+
+        System.out.println(map); 
     }
 }
